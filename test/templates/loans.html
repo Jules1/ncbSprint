@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test app</title>
+</head>
+	<body>
+			<h1>All Loans</h1>
+			<table border="1" cellpadding="5" cellspacing="5">
+			<tr>
+				<td>LOAN NUMBER</td>
+				<td>BRANCH</td>
+				<td>AMOUNT</td>
+			</tr>
+
+			{% for row in data %}
+				<tr>
+					<td>{{ row[0] }}</td>
+					<td>{{ row [1] }}</td>
+					<td>{{ row [2] }}</td>
+				</tr>
+			{% endfor %}
+
+			</p>
+	</body>
+</html>

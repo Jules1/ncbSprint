@@ -1,0 +1,9 @@
+flask
+Flask-WTF
+Flask-SQLAlchemy
+Flask-Login
+Flask-admin 
+Flask-Superadmin
+flask-mysql
+gunicorn
+db
